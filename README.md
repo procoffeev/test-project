@@ -1,2 +1,3 @@
 # test-project
-FIRST PROJECT
+*my first project on github.*
+__font test__
