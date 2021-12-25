@@ -44,7 +44,7 @@ class TestUserAddToBasketFromProductPage():
         self.page.should_be_authorized_user()
 
 
-class TestUserAddToBasketFromProductPage():    
+class TestGuestAddToBasketFromProductPage():    
     @pytest.mark.need_review                                
     def test_guest_can_add_product_to_basket(self, browser):
         link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
