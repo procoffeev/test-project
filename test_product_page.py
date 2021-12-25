@@ -43,7 +43,7 @@ class TestUserAddToBasketFromProductPage():
         self.page.register_new_user(email, password)
         self.page.should_be_authorized_user()
 
-
+@pytest.mark.guest
 class TestGuestAddToBasketFromProductPage():    
     @pytest.mark.need_review                                
     def test_guest_can_add_product_to_basket(self, browser):
