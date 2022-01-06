@@ -1,3 +1,5 @@
-# test-project
+#Automatic test
 *my first project on github.*
-__font test__
+__Automatic testing using selenium.
+Markers, smoke tests
+Page Object__
